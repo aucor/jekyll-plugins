@@ -21,27 +21,27 @@ Using eg. forloops to generate navigation produces often a huge amount of ugly w
 
 Example:
 
-  {% strip %}<ul>
+<pre><code>{% strip %}<ul>
+
+  <li>List item 1</li>
   
-    <li>List item 1</li>
-    
-    
-    
-    
-    <li>List item 2</li>
-    
-    <li>List item 3</li>
-    
-    
-  </ul>{% endstrip %}
+  
+  
+  
+  <li>List item 2</li>
+  
+  <li>List item 3</li>
+  
+  
+</ul>{% endstrip %}</code></pre>
   
 becomes:
 
-  <ul>
-    <li>List item 1</li>
-    <li>List item 2</li>
-    <li>List item 3</li>
-  </ul>
+<pre><code><ul>
+  <li>List item 1</li>
+  <li>List item 2</li>
+  <li>List item 3</li>
+</ul></code></pre>
 
 
 Author
