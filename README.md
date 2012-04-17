@@ -19,30 +19,6 @@ Usage
 
 Using eg. forloops to generate navigation produces often a huge amount of ugly whitespace. Wrapping the section with `{% strip %}{% endstrip %}` replaces the blocks of whitespace with one newline keeping the resulting in pretty markup.
 
-Example:
-
-<pre><code>{% strip %}<ul>
-
-  <li>List item 1</li>
-  
-  
-  
-  
-  <li>List item 2</li>
-  
-  <li>List item 3</li>
-  
-  
-</ul>{% endstrip %}</code></pre>
-  
-becomes:
-
-<pre><code><ul>
-  <li>List item 1</li>
-  <li>List item 2</li>
-  <li>List item 3</li>
-</ul></code></pre>
-
 
 Author
 ------
